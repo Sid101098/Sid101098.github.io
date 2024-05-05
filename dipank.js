@@ -1,6 +1,6 @@
 function getWeather() {
     const city = document.getElementById('cityInput').value;
-    const apiKey = 'YOUR_API_KEY'; // Get your API key from OpenWeatherMap
+    const apiKey = '2c9b207e59205f714e88aaac611d49e8'; // Get your API key from OpenWeatherMap
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     fetch(url)
@@ -35,7 +35,7 @@ function getLocation() {
         navigator.geolocation.getCurrentPosition(position => {
             const latitude = position.coords.latitude;
             const longitude = position.coords.longitude;
-            const apiKey = 'YOUR_API_KEY'; // Get your API key from OpenWeatherMap
+            const apiKey = '2c9b207e59205f714e88aaac611d49e8'; // Get your API key from OpenWeatherMap
             const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
 
             fetch(url)
