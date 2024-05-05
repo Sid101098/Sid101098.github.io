@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+#weatherData {
+    margin-top: 20px;
+}
+
+#searchHistory {
+    margin-top: 20px;
+}
+
+#toggleUnits {
+    margin-top: 10px;
+}
